@@ -1,6 +1,6 @@
 FROM ubuntu as build
 
-RUN apt update && apt upgrade && apt install -y openjdk-21-jdk && apt clean
+RUN apt update && apt install -y openjdk-21-jdk
 
 COPY . .
 
