@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: shop
+  profiles:
+    active: prod
+  jpa:
+    hibernate:
+      ddl-auto: validate
