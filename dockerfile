@@ -4,7 +4,7 @@ RUN apt update && apt install -y openjdk-21-jdk
 
 COPY . .
 
-RUN ./gradlew build jar
+RUN ./gradlew clean install
 
 FROM eclipse-temurin:21-jre-alpine
 
